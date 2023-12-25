@@ -18,7 +18,7 @@
   - compare the results with a model train from scratch on EMNIST 36. **(DONE)**
 
 - Make a presentation
-- 
+
 - Look into additional evaluation steps that can be utilized.
 
 - (For later)reduce the training data for MNIST and then impement TL by fine-tuning with additional training data from EMNIST letters and see if their is any difference on performance on MNIST
