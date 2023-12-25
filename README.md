@@ -1,0 +1,28 @@
+## EMNIST Letters
+- For letters we require to change the output layer, which will be part of fine-tuning during TL.
+## Further suggestions
+
+- **Create a dataset of EMNIST consisting of both letters and digits with 37 labels (10 digits and 27 letters) and use that for further evaluation and transfer learning, look into EMNIST bymerge and EMNIST balanced**
+
+- The ByMerge EMNSIT data has 47 classes with 11 random lowercase letters at the end, either remove those to avoid complication or choose ByClass variant of EMNIST, which has 62 classes (seperate for upper and lowercase).
+  - Better to just remove additional lowercase letters to avoid complicating things. (Mention that custom dataset was used) **(DONE)**
+
+- TL from MNIST to EMNIST
+  - Train the MNIST model **(DONE)**
+  - save the model **(DONE)**
+  - import as base model and change input/output layers **(DONE)**
+  - Evaluate model performance without training **(DONE)**
+  - Extract a random batch of EMNIST 36 **(DONE)**
+  - Fine-tune the model on EMNSIT 36 **(DONE)**
+  - Evaluate again **(DONE)**
+  - compare the results with a model train from scratch on EMNIST 36. **(DONE)**
+
+- Make a presentation
+- 
+- Look into additional evaluation steps that can be utilized.
+
+- (For later)reduce the training data for MNIST and then impement TL by fine-tuning with additional training data from EMNIST letters and see if their is any difference on performance on MNIST
+
+### In progress steps
+
+- Restructure MNIST model to a simple architecture and use that for TL. **(DONE)**
