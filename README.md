@@ -22,7 +22,9 @@
     - look into professor's suggestion from the photo.
     - Keep it simple in representation take a few classes from MNIST and a few classes from EMNIST.
     - Main idea is to showcase the difference in the mathematical equations before and after adding new neurons for TL (not iteration by iteration). 
-    - ~ show how the old weights can be frozen and only new weights are updated (Highly unlikely, trained transferred weights serve as good starting points)
+    - ~ show how the old weights can be frozen and only new weights are updated (Highly unlikely, trained transferred weights serve as good starting point only)
+
+    
   - **USE THE SAME SUBSET OF EMNIST FOR BOTH TL AND EMNIST MODEL (FROM SCRATCH), currently the subsamples are randomly selected seperately for both.**
   
   - Make a presentation
