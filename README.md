@@ -18,6 +18,7 @@
   - compare the results with a model train from scratch on EMNIST 36. **(DONE)**
 - Further steps
   - Use Tensorflow architecture and test it out for TL.
+  - Use only ~ 3 classes from EMNIST for TL not all (keep it simple).
   - Make a mathematical representation of TL steps.
     - look into professor's suggestion from the photo.
     - Keep it simple in representation take a few classes from MNIST and a few classes from EMNIST.
